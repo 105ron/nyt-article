@@ -1,0 +1,3 @@
+# Positioning Elements
+
+This project is practice with positioninf to recreate a [New York Times Article][Mint.com](hhttp://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)(open in an "incognito" window without cookies to view it if you're over your monthly limit). This is part of [TheOdinProject's](http://www.theodinproject.com) HTML/CSS track. See [here](http://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements?ref=lnav) for more information. The goal of the project is to clone this page while ignoring any ads, comments or interactive elements (which use Javascript) and ignore what happens when you change the page width.
