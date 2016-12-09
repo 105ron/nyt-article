@@ -1,0 +1,126 @@
+.top-bar {
+  border:1px solid red;
+}
+
+/*
+ *****************************************
+ * Section Header =top-bar
+ *****************************************
+*/
+
+.top-bar {
+  position: fixed;
+  margin-left: 30px;
+  top: 0;
+  padding-top: 11px;
+  height: 47px;
+  width: 100%;
+  background-color: #fff;
+  min-width: 900px;
+}
+
+.left-nav {
+  position: relative;
+  float: left;
+  width: 328px;
+}
+
+.left-nav li, .right-nav li {
+  display: inline;
+  text-transform: uppercase;
+}
+
+.left-nav ul, .right-nav ul {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  left: -25px;
+}
+.top-bar button {
+  padding: 7px 9px;
+  border-radius: 3px;
+  font-weight: 700;
+  margin-left: 5px;
+  cursor: pointer; 
+  cursor: hand;
+}
+
+.left-nav button {
+  margin-top: 1px;
+  border: none;
+  background-color: #fff;
+  background-repeat: no-repeat;
+}
+
+.left-nav button:hover {
+  background-color: #f7f7f5;
+}
+
+#sections {
+  background-image: url(../images/menu.svg);
+  background-position: 9px 7.5px;
+  background-size: 18px 14px;
+  box-shadow: rgba(0,0,0,0.6) 0px 3px 2px;
+  padding-left: 32px;
+}
+
+#home {
+  background-image: url(../images/favicon.ico);
+  background-position: 9px 7.5px;
+  background-size: 16px 16px;
+  padding-left: 28px;
+}
+
+#search {
+  background-image: url(../images/search.svg);
+  background-position: 9px 7.5px;
+  background-size: 16px 16px;
+  padding-left: 28px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  margin-top: 3px;
+}
+
+.right-nav {
+  position: relative;
+  float: right;
+  width: 328px;
+  height: 20px;
+}
+
+.right-nav button {
+  background-color: #6288a5;
+  border: 1px solid #4d7b9F;
+  color: #fff !important;
+  margin-right: 5px;
+}
+
+.right-nav button:hover {
+  background-color: #326891;
+}
+
+.right-nav ul {
+  float: right;
+  margin-right: 22px;
+}
+
+.right-nav li {
+  vertical-align: top;
+}
+
+
+#settings {
+  background-image: url(../images/cog.svg);
+  background-position: 0px 7px;
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  height: 25px;
+  width: 16px;
+  margin-left: 8px;
+  display: inline-block;
+  cursor: pointer; 
+  cursor: hand;
+}
