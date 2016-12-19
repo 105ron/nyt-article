@@ -24,6 +24,7 @@ body {
   width: 30px;
   height: 100%;
   z-index: 999;
+  b/*ackground-color: pink;*/
 }
 /*
  *****************************************
@@ -159,13 +160,14 @@ img {
 */
 
 .carosel-container {
-  width: calc(100% - 31px);
+  width: calc(100% - 22px);
   height: 83px;
   position: relative;
   float: right;
   top: 46px;
   clear: both;
   overflow: hidden;
+  border-bottom: 1px solid #ccc;
   /*border: 1px solid black;*/
   /*background-color: yellow;*/
 }
@@ -193,8 +195,8 @@ img {
 
 .first-div {
   border-left: none;
-  margin-left: 0;
-  padding-left: 0;
+  margin-left: ;
+  padding-left: 9px;
 }
 
 .carosel-article img {
@@ -241,3 +243,18 @@ img {
   border-top: 1px solid red;
   z-index: 8888;
 }
+
+/*
+ *****************************************
+ * Section Header =maint-container
+ *****************************************
+*/
+
+.main-container {
+  position: relative;
+  float: right;
+  width: calc(100% - 25px);
+  height: 400px;
+  margin-top: 50px;
+  background-color: yellow;
+} 
