@@ -468,3 +468,80 @@ strong {
   font-weight: 700;
   line-height: 26px;
 }
+
+/*
+ *****************************************
+ * Section Header =info-graphic
+ *****************************************
+*/
+
+.info-graphic {
+  font-family: "times new roman",times,serif;
+  border-top: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
+  margin: 30px 0;
+  padding: 15px 0;
+}
+
+.infographic-headline {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 3px 0;
+}
+
+.infographic-leadin {
+  color: #666;
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+.image-container {
+  position: relative;
+}
+
+.explainer-container {
+  position: absolute;
+  width: 207px;
+  margin: 0 10px;
+  font-family: arial,helvetica,sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #000000;
+}
+
+.explainer-heading {
+  font-weight: 800;
+}
+
+.top {
+    top: 145px;
+}
+
+.bottom {
+  top: 535px;
+}
+  
+.one {
+    left: -10px;
+}
+
+.two {
+  left: 220px;
+}
+
+.three {
+  left: 450px;
+}
+
+.four {
+  left: 680px;
+}
+
+.image-container .caption-by {
+  position: absolute;
+  bottom: 5px;
+  color: #999;
+  font-size: 12px
+  font-weight: 300;
+}
