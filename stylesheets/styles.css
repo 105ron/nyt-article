@@ -561,8 +561,24 @@ iframe {
   color: #666;
 }
 
-#small-span {
+.small-span {
   font-size: 11px;
   margin-bottom: 10px;
   display: inline-block;
 }
+
+/*
+ *****************************************
+ * Section Header =last image
+ *****************************************
+*/
+
+.gravity-patterns {
+  margin-top: 40px;
+}
+
+/*
+ *****************************************
+ * Section Header =bottom-notes
+ *****************************************
+*/
